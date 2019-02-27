@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_honghong"
+        android:title="红红"
+        android:orderInCategory="1">
+    </item>
+
+    <item android:id="@+id/menu_huohuo"
+        android:title="火火"
+        android:orderInCategory="2">
+    </item>
+
+    <item android:id="@+id/menu_huanghuang"
+        android:title="晃晃"
+        android:orderInCategory="3">
+    </item>
+
+    <item android:id="@+id/meun_huhu"
+        android:title="乎乎"
+        android:orderInCategory="4">
+        <menu>
+            <item
+                android:id="@+id/menu_huhu_sub_first"
+                android:title="乎乎 1">
+            </item>
+            <item
+                android:id="@+id/menu_huhu_sub_second"
+                android:title="乎乎 2">
+            </item>
+        </menu>
+    </item>
+</menu>
+    <!--
+        每一个item代表一个菜单选项
+        android:id 唯一标识
+        android:title
+        android:orderInCategory 排序
+    -->
